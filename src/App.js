@@ -8,17 +8,24 @@ import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Products from "./Pages/Products";
 import SingleProduct from "./Pages/Product/SingleProduct";
+import { useAuthContext } from "./Components/hooks/useAuthContext";
+import HomeNavbar from "./Components/Navbar/HomeNavbar";
+
+
 function App() {
+  const { user } = useAuthContext();
+
   return (
     <div className="App">
       <BrowserRouter>
-          <Navbar />
+      { !user ?   <Navbar /> :<HomeNavbar user={user} /> }
+        
           <div className="views">
             <Routes>
-                {/* <Route path="/" element={<Home />}>
+                <Route path="/" element={<Home />}>
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
-                </Route> */}
+                </Route>
                 <Route path="/product" element={<Products />}>
                     <Route path="single" element={<SingleProduct />} />
                 </Route>

@@ -1,4 +1,4 @@
-.Navebar{
+.HomeNavebar{
     width: 100%;
     padding: 0;
     margin: 0;
@@ -9,34 +9,36 @@
     z-index: 2;
     background: #fff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
-}.navbar-container{
-     display: flex;width: 100%;  position: relative;
+}
+.HomeNavebar .navbar-container{
+     display: flex; width: 100%; 
+     position: relative;
     }
 .navbar-container .logo{ width: 46%;
     padding: 5px;
     margin: 5px;
     display: flex;}
 .navbar-container .logo h4{
-    padding: 7px; font-size: 16px; color: rgb(219, 15, 15);
+    padding: 13px 7px; font-size: 14px; color: rgb(219, 15, 15);
 }
 .navbar-container .logo img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 5px 10px;
 }
 .navbar-container .contents{
  display: flex;
  gap: 29px;
-    padding: 20px;
+padding: 20px;
 }
 .navbar-container .contents a{
    color: black;
-   font-size: 15px;
+   font-size: 13px;
    font-weight: bold;
 }
 .navbar-container .contents a.active{
     color: rgb(63, 2, 2);
-    font-size: 18px;
+   font-size: 13px;
     font-weight: bold;
     border-bottom: 2px solid red;
  }
@@ -215,7 +217,7 @@
         display: none;
     }
     .navbar-container .logo{
-        width: 60%;
+        width: 70%;
         padding: 5px;
         margin: 5px;
         display: flex;
@@ -225,7 +227,7 @@
     }
 }
 
-@media only screen and ( max-width : 650px ) {
+@media only screen and ( min-width : 475px ) and ( max-width : 650px ) {
     .signup, .loginEl{
         display: none;
     }
@@ -258,6 +260,54 @@
         width: 60%;
     }
 }
+
+@media only screen and ( max-width : 475px )  {
+    .signup, .loginEl{
+        display: none;
+    }
+    .menubar{
+        display: block;
+    }
+    .navbar-details .contents{
+        display: none;
+    }
+    .navbar-container .logo{
+        width: 30%;
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+    }
+    .navbar-container .logo h4{
+      display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .navbar-container .logo img{
+        width: 20px;
+        height: 20px;
+        padding: 5px 10px;
+    }
+    .navbar-details{
+        display: flex;
+        gap: 10px;
+        width: 80%;
+    }
+   .HomeNavebar .cart{
+    width: 19px;
+        font-size: 14px;
+        cursor: pointer;
+        color: rgb(165, 6, 6);
+    }
+    .profile-container {
+        display: flex;
+        gap: 1px;
+        padding: 5px;
+    }
+    
+    
+}
+
 
 @media only screen and ( min-width : 900px ) {
     .menubar{
