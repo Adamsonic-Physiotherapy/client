@@ -78,7 +78,9 @@ padding: 5px 10px;
         color: white;
         background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
     }
-    
+    .signup, .loginEl{
+        display: block;
+    }
 
 .navbar-container .Logins .loginEl a{
     display: flex;
@@ -210,6 +212,9 @@ padding: 5px 10px;
 }
 
 @media only screen and ( max-width : 650px ) {
+    .signup, .loginEl{
+        display: none;
+    }
     .menubar{
         display: block;
     }
@@ -217,7 +222,7 @@ padding: 5px 10px;
         display: none;
     }
     .navbar-container .logo{
-        width: 60%;
+        width: 80%;
         padding: 5px;
         margin: 5px;
         display: flex;
@@ -227,6 +232,11 @@ padding: 5px 10px;
     }
     .menu{
         display: block;
+    }
+    .navbar-container .logo img{
+        width: 30px;
+        height: 30px;
+        padding: 5px 10px;
     }
 }
 

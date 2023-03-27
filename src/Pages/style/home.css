@@ -338,6 +338,7 @@
 }
 
 @media only screen and ( max-width : 380px ) {
+    
     .home-top-content-container{
         width: 50%;
         position: absolute;

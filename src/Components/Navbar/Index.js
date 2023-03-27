@@ -80,6 +80,14 @@ export default function Navbar() {
             menu && 
         <div className="menubar">
             <div className="menubar-container">
+            <div className="Logins">
+                    <div className="loginEl">
+                        <NavLink to='login'>Login</NavLink>
+                    </div>
+                    <div className="signup">
+                        <NavLink to='signup'>Create account</NavLink>
+                    </div>
+                </div> 
                 <div className="contents">
                     <div className="home">
                         <NavLink to='/'>Home</NavLink>
@@ -93,9 +101,11 @@ export default function Navbar() {
                     <div className="home">
                         <NavLink to='contact'>Contact</NavLink>
                     </div>
-                    <div className="logout-btn">
-                        <button onClick={HandleLogOut}>Logout</button>
-                    </div>
+                    { user && 
+                        <div className="logout-btn">
+                            <button onClick={HandleLogOut}>Logout</button>
+                        </div>
+                    }
                 </div>
             </div>
         </div> }
