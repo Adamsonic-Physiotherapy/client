@@ -98,8 +98,8 @@
 
 @media only screen and (max-width : 366px ) {
     .product-top-content img{
-        width: 230;
-        height: 170px;
+        width: 120px;
+        height: 90px;
     }
     .product-top-content{
         flex: 0%;
