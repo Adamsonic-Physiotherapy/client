@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 export default function Products() {
 
-    const navigate = useNavigate()
+const navigate = useNavigate()
 
 const [ product ] = useState([
     {
@@ -109,17 +109,17 @@ const [ product ] = useState([
     {
         id: 15,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/qxBbrHq/PHY-13.jpg'
     },
     {
         id: 16,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/hXQ9H1R/A.jpg'
     },
     {
         id: 17,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/Q6bkK47/b.jpg'
     },
     {
         id: 18,
@@ -129,25 +129,34 @@ const [ product ] = useState([
     {
         id: 19,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/Fx6JnFx/da.jpg'
     },
     {
         id: 20,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/HK98JDz/PHY-14.jpg'
     },
     {
         id: 21,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/zGCYNHN/PHY-15.jpg'
     },
     {
         id: 22,
         name : "Long Cork_Up ",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+        image: 'https://i.ibb.co/ZXdKvxD/PHY-16.jpg'
+    },
+    {
+        id: 23,
+        name : "Long Cork_Up ",
+        image: 'https://i.ibb.co/QvRMW1k/PHY-17.jpg'
+    },
+    {
+        id: 24,
+        name : "Long Cork_Up ",
+        image: 'https://i.ibb.co/KbGV7nw/PHY-18.jpg'
     },
 ])
-
     
     const HandleRoutes = ((e, image, name , price, des)=>{
         navigate(e,{
@@ -156,7 +165,6 @@ const [ product ] = useState([
             }
         })
     })
-
   return (
         <div className='product'>
           <Outlet />
@@ -175,13 +183,12 @@ const [ product ] = useState([
                     </div>
                 </div>
                 </div> 
-            )) }
-             
+            ))}
             </div>
             <div className="footer">
               <footer>Copyright @2023</footer>
             </div>
         </div>
       )
-    }
+}
     
