@@ -10,58 +10,63 @@
     background: #fff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.11);
 }.navbar-container{
-     display: flex;width: 100%;  position: relative;
-    }
-.navbar-container .logo{ width: 46%;
+     display: flex;width: 100%; 
+      position: relative;
+}
+.navbar-container .logo{ 
+    width: 50%;
     padding: 5px;
     margin: 5px;
-    display: flex;}
+    display: flex;
+}
 .navbar-container .logo h4{
-    padding: 7px; font-size: 16px; color: rgb(219, 15, 15);
+    padding: 7px;
+     font-size: 19px;
+     color: rgb(219, 15, 15);
 }
 .navbar-container .logo img{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding: 5px 10px;
 }
 .navbar-container .contents{
- display: flex;
- gap: 29px;
+    display: flex;
+    gap: 15px;
     padding: 20px;
 }
 .navbar-container .contents a{
    color: black;
-   font-size: 15px;
+   font-size: 13px;
    font-weight: bold;
 }
 .navbar-container .contents a.active{
     color: rgb(63, 2, 2);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     border-bottom: 2px solid red;
  }
  .navbar-container .Logins{
- display: flex;
- gap: 10px;
- margin-left: 30px;
+    display: flex;
+    gap: 10px;
  }
 .navbar-details{
     display: flex;
-    gap: 20px;
-    width: 60%;
+    gap: 90px;
+    width: 50%;
 }
  .navbar-container .Logins{
     display: flex;
     gap: 10px;
     margin: 10px;
 }
- 
 .navbar-container .Logins .signup a{
     display: flex;
     gap: 20px;
     color: white;
     padding: 5px 25px;
     border-radius: 5px;
+    font-size: 12px;
+    margin: 5px;
     background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
 }
 
@@ -74,15 +79,15 @@
 }
 
 .navbar-container .Logins .loginEl a{
-    display: flex;
-    gap: 20px;
     border-radius: 5px;
     cursor: pointer;
     background: #ff000011;
     padding: 5px 20px;
     color: rgb(202, 36, 36);
-
     border: 1px solid #C50F0F;
+    font-size: 12px;
+    margin: 5px;
+
 }
  
 .profile{
@@ -247,15 +252,16 @@
     .menu{
         display: block;
     }
-    .navbar-container .logo img{
-        width: 30px;
-        height: 30px;
-        padding: 5px 10px;
-    }
     .navbar-details{
         display: flex;
-        gap: 20px;
-        width: 60%;
+        gap: 10px;
+        width: 30%;
+    }
+    .navbar-container .logo{
+        width: 80%;
+        padding: 5px;
+        margin: 5px;
+        display: flex;
     }
 }
 

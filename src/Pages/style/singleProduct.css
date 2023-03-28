@@ -36,7 +36,8 @@
    height: 250px;
 }
 .single-product-container .product-img img{
-    width: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
 
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.24);

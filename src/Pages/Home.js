@@ -1,10 +1,15 @@
 import React from 'react'
 import './style/home.css'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 import Medical from "./image/medical.jpg"
 import one from "./image/hand exercise box.jpg"
 
 export default function Home() {
+  const navigate = useNavigate()
+  const handleNavigate = (()=>{
+      navigate('/contact')
+  })
+
   return (
     <div className='home'>
       <Outlet />
@@ -13,7 +18,7 @@ export default function Home() {
             <img src={Medical} alt="" />
           <div className="home-top-content-container">
               <h2>Adamsonic Medical And Physiotherapy Rehabilitating Equipments, Orthotics and Prosthetics Specialist.</h2>
-              <button>Contact us</button>
+              <button onClick={handleNavigate} >Contact us</button>
           </div>
         </div>
         <div className="descriptopn">
@@ -22,10 +27,11 @@ export default function Home() {
                 <h3>A division of Adamsonic Investment Limited</h3>
               </div>
               <div className="contents">
-                <h4> Specialises in manufacturing of Prosthetics and Irthotics products, maufacturing, Repairs and manufacturing of medical and physiotherapy Equipments. </h4>
-                <h4>Head support, Dynamic internal and External Rotators of lower limbs, Shoe raise, Adjustable Hip adductor and many more products</h4>    
+                <h4>  Orthotics and Prosthetics specialist,</h4>
+                <h4>Specialist in Fabrication and production of medical/ physiotherapy equipment,
+                Sales, services and repair of medical/ physiotherapy equipments</h4>    
               </div>
-              <button>Contact us</button>
+              <button  onClick={handleNavigate} >Contact us</button>
           </div>
         </div>
         <section className='Related'>

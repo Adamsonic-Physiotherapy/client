@@ -14,51 +14,51 @@
      display: flex; width: 100%; 
      position: relative;
     }
-.navbar-container .logo{ width: 46%;
+    .HomeNavebar .navbar-container .logo{ width: 46%;
     padding: 5px;
     margin: 5px;
     display: flex;}
-.navbar-container .logo h4{
+    .HomeNavebar .navbar-container .logo h4{
     padding: 13px 7px; font-size: 14px; color: rgb(219, 15, 15);
 }
-.navbar-container .logo img{
+.HomeNavebar.navbar-container .logo img{
     width: 30px;
     height: 30px;
     padding: 5px 10px;
 }
-.navbar-container .contents{
+.HomeNavebar .navbar-container .contents{
  display: flex;
  gap: 29px;
 padding: 20px;
 }
-.navbar-container .contents a{
+.HomeNavebar .navbar-container .contents a{
    color: black;
    font-size: 13px;
    font-weight: bold;
 }
-.navbar-container .contents a.active{
+.HomeNavebar .navbar-container .contents a.active{
     color: rgb(63, 2, 2);
    font-size: 13px;
     font-weight: bold;
     border-bottom: 2px solid red;
  }
- .navbar-container .Logins{
+ .HomeNavebar .navbar-container .Logins{
  display: flex;
  gap: 10px;
  margin-left: 30px;
  }
-.navbar-details{
+ .HomeNavebar .navbar-details{
     display: flex;
     gap: 20px;
     width: 60%;
 }
- .navbar-container .Logins{
+.HomeNavebar .navbar-container .Logins{
     display: flex;
     gap: 10px;
     margin: 10px;
 }
  
-.navbar-container .Logins .signup a{
+.HomeNavebar .navbar-container .Logins .signup a{
     display: flex;
     gap: 20px;
     color: white;
@@ -67,7 +67,7 @@ padding: 20px;
     background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
 }
 
-.navbar-container .Logins .signup a:hover{
+.HomeNavebar .navbar-container .Logins .signup a:hover{
     color: white;
     background: linear-gradient(81.5deg, #DCB5B5 -11.89%, #DA6363 30.89%, #C50F0F 80.38%);
 }
@@ -262,33 +262,33 @@ padding: 20px;
 }
 
 @media only screen and ( max-width : 475px )  {
-    .signup, .loginEl{
+     .signup, .loginEl{
         display: none;
     }
     .menubar{
         display: block;
     }
-    .navbar-details .contents{
+  .navbar-details .contents{
         display: none;
     }
-    .navbar-container .logo{
+    .HomeNavebar  .navbar-container .logo{
         width: 30%;
         padding: 5px;
         margin: 5px;
         display: flex;
     }
-    .navbar-container .logo h4{
+ .navbar-container .logo h4{
       display: none;
     }
-    .menu{
+   .menu{
         display: block;
     }
-    .navbar-container .logo img{
+    .HomeNavebar  .navbar-container .logo img{
         width: 20px;
         height: 20px;
         padding: 5px 10px;
     }
-    .navbar-details{
+    .HomeNavebar .navbar-details{
         display: flex;
         gap: 10px;
         width: 80%;
@@ -304,8 +304,6 @@ padding: 20px;
         gap: 1px;
         padding: 5px;
     }
-    
-    
 }
 
 

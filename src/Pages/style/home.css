@@ -77,8 +77,7 @@
 .Related{
     width: 100%;
     padding: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.233);
 }
 .Related-container{
