@@ -11,14 +11,12 @@ const [ product ] = useState([
     {
         id: 1,
         name : "POSTERIOR LIMB (Adult)",
-        price: "₦10,000",
         image: "https://i.ibb.co/7rm6WD9/Dynamic-foot-raise-children.jpg",
         des: " Next your physiotherapist will physically examine your foot and entire lower extremity. They will palpate, or touch, around your area of discomfort"
     },
     {
         id: 2,
         name : "Aeroplane Splint",
-        price: "₦7,000",
         image: 'https://i.ibb.co/cx2C90C/Aeroplane-splint.jpg',
         des: `A complicated splint that holds the arm in abduction at about
         shoulder level with the forearm midway in flexion, generally
@@ -27,7 +25,6 @@ const [ product ] = useState([
     {
         id: 3,
         name : "Long Cork-Up Slints (Adult)",
-        price: "₦17,000",
         image: 'https://i.ibb.co/485H2Pg/Long-cork-up.jpg',
         des: `Cock-up style wrist splints securely and comfortably immobilize and protect one's wrist, 
         as needed for treating a variety of wrist injuries and conditions`
@@ -35,7 +32,6 @@ const [ product ] = useState([
     {
         id: 4,
         name : "Reciprocal Pulley (foreign)",
-        price: "₦6,000",
         image: 'https://i.ibb.co/TcFpJWz/Reciprocal-pulley.jpg',
         des: `Reciprocal pulley / Pulley exercisers improve range of motion
         and coordination for those suffering with arthritis, shoulder or
@@ -46,7 +42,6 @@ const [ product ] = useState([
     {
         id: 5,
         name : "Quoriceps Benchs",
-        price: "₦18,000",
         image: 'https://i.ibb.co/ngyNwNV/wobby-board-local.jpg',
         des: `The Quadriceps Bench is a functional muscle exerciser, allowing
         a large number of exercises to be performed within minimum floor
@@ -56,14 +51,12 @@ const [ product ] = useState([
     {
         id: 6,
         name : "Insole",
-        price: "₦7,000",
         image: 'https://i.ibb.co/L8tjmWy/snad-bag.jpg',
         des: ``
     }, 
     {
         id: 7,
         name : "Long Cork Splint (Adult)",
-        price: "₦17,000",
         image: 'https://i.ibb.co/yRsHgZ1/Long-cork-splint-adult.jpg',
         des: `   Cock-up splint helps to hold the wrists and hands “cocked-up” in
         a single position and immobilise the wrist during healing of
@@ -72,7 +65,6 @@ const [ product ] = useState([
     {
         id: 8,
         name : "Cork Up Splint (Adult)",
-        price: "₦7,000",
         image: 'https://i.ibb.co/DMhzgq0/PHY-8.jpg',
         des: `   Cock-up splint helps to hold the wrists and hands “cocked-up” in
         a single position and immobilise the wrist during healing of
@@ -81,7 +73,6 @@ const [ product ] = useState([
     {
         id: 10,
         name : "Cork Up Spring (Children)",
-        price: "₦5,000",
         image: 'https://i.ibb.co/ggbYTJn/cork-Up-Spring-children.jpg',
         des: ` Cock-up splint helps to hold the wrists and hands “cocked-up” in
         a single position and immobilise the wrist during healing of
@@ -90,14 +81,12 @@ const [ product ] = useState([
     {
         id: 11,
         name : "Lumber Roll",
-        price: "₦7,000",
         image: 'https://i.ibb.co/cL5L5F4/Lumber-Roll.jpg',
         des: `  This Round roll compresses easily whilst still providing essential medium-firm support. It suits larger framed people and those with a pronounced lumbar`
     },
     {
         id: 12,
         name : "Sand Bag",
-        price: " 1kg-₦1,500, 1.5kg-₦2,000, 2kg-₦2,500, 2.5kg-₦3,000, 3kg-₦3,000, 4kg-₦4,500, 4kg-₦5,500",
         image: 'https://i.ibb.co/5KYDp7r/Sand-Bag.jpg',
         des: `For patient placement and rehabilitative assistance before and
         after surgical procedures, sandbags with handles are employed.
@@ -108,63 +97,53 @@ const [ product ] = useState([
     {
         id: 13,
         name : "Functional Toe Raise Device",
-        price: "",
         image: 'https://i.ibb.co/RzkM7k7/Posterior-Limb.jpg',
         des: ``
     },
     {
         id: 14,
         name : "Wall Ladder/ Wall Bar",
-        price: "₦80,000 - ₦120,000",
         image: 'https://i.ibb.co/5KFzVsz/wall-ladder.jpg',
         des: ``
     },
     {
         id: 15,
         name : "Long Cork_Up ",
-        price: "",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 16,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 17,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 18,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 19,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 20,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 21,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 22,
         name : "Long Cork_Up ",
-        price: "₦7,000",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
 ])
@@ -177,7 +156,6 @@ const [ product ] = useState([
             }
         })
     })
-
 
   return (
         <div className='product'>
