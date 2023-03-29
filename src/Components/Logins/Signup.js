@@ -1,9 +1,14 @@
 import React from 'react'
 import {  useState } from "react"
 import "./style/login.css"
+import { useNavigate } from 'react-router-dom';
 import { useSignup } from "../hooks/useSignup"
+import { IoCloseSharp } from "react-icons/io5";
+
 
 export default function Signup() {
+    const navigate = useNavigate()
+
 
     const { signup, error, isLoading } = useSignup()
 
@@ -26,8 +31,15 @@ export default function Signup() {
         }
     })
 
+    const HandleCancel = (()=>{
+        navigate(-1)
+    })
+
+
   return (
     <div className='Login'>
+    <h3 className='cancel-icon' onClick={HandleCancel}> <IoCloseSharp /></h3>
+
         <div className="login-container">
             <form onSubmit={HandleSubmit}>
                 <h2>Create account</h2>

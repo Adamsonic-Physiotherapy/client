@@ -65,26 +65,25 @@ return (
             <div className="menubar-container">
             <div className="Logins">
                      <h3 className='cancel-icon' onClick={HandleCancel}> <IoCloseSharp /></h3>
-
                     <div className="loginEl">
-                        <NavLink to='login'>Login</NavLink>
+                        <NavLink onClick={HandleCancel} to='login'>Login</NavLink>
                     </div>
                     <div className="signup">
-                        <NavLink to='signup'>Create account</NavLink>
+                        <NavLink onClick={HandleCancel} to='signup'>Create account</NavLink>
                     </div>
                 </div>
                 <div className="contents">
                     <div className="home">
-                        <NavLink to='/'>Home</NavLink>
+                        <NavLink onClick={HandleCancel} to='/'>Home</NavLink>
                     </div>
                     <div className="home">
-                        <NavLink to='product'>Products</NavLink>
+                        <NavLink onClick={HandleCancel} to='product'>Products</NavLink>
                     </div>
                     <div className="home">
-                        <NavLink to='about'>About</NavLink>
+                        <NavLink onClick={HandleCancel} to='about'>About</NavLink>
                     </div>
                     <div className="home">
-                        <NavLink to='contact'>Contact</NavLink>
+                        <NavLink onClick={HandleCancel} to='contact'>Contact</NavLink>
                     </div>
                 </div>
             </div>
