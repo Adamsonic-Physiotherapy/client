@@ -172,6 +172,11 @@ const [ product ] = useState([
         name : "Quoricep Board",
         image: 'https://i.ibb.co/MVWrhgW/Quoricep.jpg'
     },
+    {
+        id: 28,
+        name : "Finger ladder",
+        image: 'https://i.ibb.co/VjFZYyF/finger-ladder-q5.jpg'
+    },
 ])
     
     const HandleRoutes = ((e, image, name , price, des)=>{
