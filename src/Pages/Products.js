@@ -49,6 +49,15 @@ const [ product ] = useState([
         instance knee flexion and hip stretching).`
     }, 
     {
+        id: 35,
+        name : "Wobblr Board",
+        image: 'https://i.ibb.co/474PdJT/wobble.jpg',
+        des: `The Quadriceps Bench is a functional muscle exerciser, allowing
+        a large number of exercises to be performed within minimum floor
+        surface. as well as exercises in a reclining position (for
+        instance knee flexion and hip stretching).`
+    }, 
+    {
         id: 6,
         name : "Insole",
         image: 'https://i.ibb.co/L8tjmWy/snad-bag.jpg',
@@ -176,6 +185,16 @@ const [ product ] = useState([
         id: 28,
         name : "Finger ladder",
         image: 'https://i.ibb.co/VjFZYyF/finger-ladder-q5.jpg'
+    },
+    {
+        id: 29,
+        name : "Tunnel Bath",
+        image: 'https://i.ibb.co/kS1SH2j/tunnel1.jpg'
+    },
+    {
+        id: 30,
+        name : "Tunnel Bath",
+        image: 'https://i.ibb.co/w6w5gmm/tunnel.jpg'
     },
 ])
     
