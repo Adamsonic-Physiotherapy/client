@@ -206,6 +206,16 @@ const [ product ] = useState([
         name : "Shoulder Support",
         image: 'https://i.ibb.co/DY8wf1T/shoulder.jpg'
     },
+    {
+        id: 41,
+        name : "Stair Case",
+        image: 'https://i.ibb.co/SRmq5GC/stair2.jpg'
+    },
+    {
+        id: 42,
+        name : "Stair Case",
+        image: 'https://i.ibb.co/5BVKbbL/stairs.jpg'
+    },
 ])
     
     const HandleRoutes = ((e, image, name , price, des)=>{
