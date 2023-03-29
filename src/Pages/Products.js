@@ -23,13 +23,6 @@ const [ product ] = useState([
         with an axillary strut for support.`
     },
     {
-        id: 3,
-        name : "Long Cork-Up Slints ",
-        image: 'https://i.ibb.co/485H2Pg/Long-cork-up.jpg',
-        des: `Cock-up style wrist splints securely and comfortably immobilize and protect one's wrist, 
-        as needed for treating a variety of wrist injuries and conditions`
-    },
-    {
         id: 4,
         name : "Reciprocal Pulley",
         image: 'https://i.ibb.co/TcFpJWz/Reciprocal-pulley.jpg',
@@ -40,8 +33,14 @@ const [ product ] = useState([
         can be mounted over a door, on the floor, or attach to a wall.`
     },
     {
+        id: 6,
+        name : "Insole",
+        image: 'https://i.ibb.co/L8tjmWy/snad-bag.jpg',
+        des: ``
+    }, 
+    {
         id: 5,
-        name : "Wobblr Board",
+        name : "Wobble Board",
         image: 'https://i.ibb.co/ngyNwNV/wobby-board-local.jpg',
         des: `The Quadriceps Bench is a functional muscle exerciser, allowing
         a large number of exercises to be performed within minimum floor
@@ -50,19 +49,14 @@ const [ product ] = useState([
     }, 
     {
         id: 35,
-        name : "Wobblr Board",
+        name : "Wobble Board",
         image: 'https://i.ibb.co/474PdJT/wobble.jpg',
         des: `The Quadriceps Bench is a functional muscle exerciser, allowing
         a large number of exercises to be performed within minimum floor
         surface. as well as exercises in a reclining position (for
         instance knee flexion and hip stretching).`
     }, 
-    {
-        id: 6,
-        name : "Insole",
-        image: 'https://i.ibb.co/L8tjmWy/snad-bag.jpg',
-        des: ``
-    }, 
+
     {
         id: 7,
         name : "Long Cork-Up Splint",
@@ -71,6 +65,18 @@ const [ product ] = useState([
         a single position and immobilise the wrist during healing of
         wrist injuries.`
     }, 
+    {
+        id: 18,
+        name : "Long Cork-up Splint",
+        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
+    },
+    {
+        id: 3,
+        name : "Long Cork-Up Slints ",
+        image: 'https://i.ibb.co/485H2Pg/Long-cork-up.jpg',
+        des: `Cock-up style wrist splints securely and comfortably immobilize and protect one's wrist, 
+        as needed for treating a variety of wrist injuries and conditions`
+    },
     {
         id: 8,
         name : "Cork-Up Splint",
@@ -126,14 +132,14 @@ const [ product ] = useState([
         image: 'https://i.ibb.co/hXQ9H1R/A.jpg'
     },
     {
+        id: 28,
+        name : "Finger ladder",
+        image: 'https://i.ibb.co/VjFZYyF/finger-ladder-q5.jpg'
+    },
+    {
         id: 17,
         name : "Medical Finger physiotherapy Hemiplega Rehabilitation Equipment",
         image: 'https://i.ibb.co/Q6bkK47/b.jpg'
-    },
-    {
-        id: 18,
-        name : "Long Cork-up Splint",
-        image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
         id: 19,
@@ -180,11 +186,6 @@ const [ product ] = useState([
         id: 27,
         name : "Quoricep Board",
         image: 'https://i.ibb.co/MVWrhgW/Quoricep.jpg'
-    },
-    {
-        id: 28,
-        name : "Finger ladder",
-        image: 'https://i.ibb.co/VjFZYyF/finger-ladder-q5.jpg'
     },
     {
         id: 29,
