@@ -152,14 +152,25 @@ const [ product ] = useState([
         image: 'https://i.ibb.co/QvRMW1k/PHY-17.jpg'
     },
     {
-        id: 23,
+        id: 24,
         name : "Hand Exercise box Rehabilitation",
         image: 'https://i.ibb.co/BKpb91X/handle.jpg'
     },
+
     {
-        id: 24,
+        id: 25,
+        name : "Back Slap",
+        image: 'https://i.ibb.co/RyfZsq9/PHY-23.jpg'
+    },
+    {
+        id: 26,
         name : "Harmstring Extensor Board",
         image: 'https://i.ibb.co/KbGV7nw/PHY-18.jpg'
+    },
+    {
+        id: 27,
+        name : "Quoricep Board",
+        image: 'https://i.ibb.co/MVWrhgW/Quoricep.jpg'
     },
 ])
     
