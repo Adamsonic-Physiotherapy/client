@@ -10,10 +10,12 @@ export default function Contact() {
               <div className="home-top-content">
                 <img src={Medical} alt="" />
               <div className="home-top-content-container">
-                <h1>Contact</h1>
-                  <h4>Location : 82 Ibidun street Ojuelegba, <br />
-              contact : 2348034004726 / 2348095117774  </h4>
+                  <div className="about-page">    
+                  <h1>Contact Us</h1>
+                      <h4>Location : 82 Ibidun street Ojuelegba, <br />
+                       contact : 2348034004726 / 2348095117774  </h4>
                   <button>Contact us</button>
+                </div>
               </div>
             </div> 
             <div className="footer">

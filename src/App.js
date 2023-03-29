@@ -11,7 +11,6 @@ import SingleProduct from "./Pages/Product/SingleProduct";
 import { useAuthContext } from "./Components/hooks/useAuthContext";
 import HomeNavbar from "./Components/Navbar/HomeNavbar";
 
-
 function App() {
   const { user } = useAuthContext();
 
