@@ -4,6 +4,8 @@ import "./style/index.css"
 import logo from './Image/Logo.png'
 import { FiMenu } from "react-icons/fi";
 import { useState } from 'react';
+import { IoCloseSharp } from "react-icons/io5";
+
 
 export default function Navbar() {
 
@@ -16,6 +18,11 @@ export default function Navbar() {
             setMenu(true)
         }
     })
+
+    const HandleCancel = (()=>{
+        setMenu(false)
+    })
+
 
 return (
     <div className='Navebar'>
@@ -57,6 +64,8 @@ return (
         <div className="menubar">
             <div className="menubar-container">
             <div className="Logins">
+                     <h3 className='cancel-icon' onClick={HandleCancel}> <IoCloseSharp /></h3>
+
                     <div className="loginEl">
                         <NavLink to='login'>Login</NavLink>
                     </div>

@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
       { !user ?   <Navbar /> :<HomeNavbar user={user} /> }
-        
           <div className="views">
             <Routes>
                 <Route path="/" element={<Home />}>

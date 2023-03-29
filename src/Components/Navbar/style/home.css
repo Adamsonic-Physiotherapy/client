@@ -42,11 +42,7 @@ padding: 20px;
     font-weight: bold;
     border-bottom: 2px solid red;
  }
- .HomeNavebar .navbar-container .Logins{
- display: flex;
- gap: 10px;
- margin-left: 30px;
- }
+
  .HomeNavebar .navbar-details{
     display: flex;
     gap: 20px;
@@ -124,41 +120,11 @@ padding: 20px;
     padding: 13px;
 }
 
-.menubar{
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    height: 50%;
-    width: 50%;
-    background: rgb(54, 5, 5);
-    top: 60px;
-    right: 0;
-    z-index: 2920;
-}
-
-.menubar-container{
-    padding: 10px;
-}
-.menubar-container .contents{
-    padding: 10px;
-}
-.menubar-container .contents .home{
-    padding: 10px;
-    background: rgba(128, 128, 128, 0.342);
-    border-radius: 6px;
-    padding: 5px;
-    margin: 14px 0px;
-}
-.menubar-container .contents .home a{
- color: #ffffff88;
-}
 .menubar-container .contents .logout-btn{
     margin: 0;
     padding: 20px;
 }
-.menubar-container{
-    background: rgb(54, 5, 5);
-}
+
 .menu{
     display: none;
 }
@@ -228,9 +194,7 @@ padding: 20px;
 }
 
 @media only screen and ( min-width : 475px ) and ( max-width : 650px ) {
-    .signup, .loginEl{
-        display: none;
-    }
+
     .menubar{
         display: block;
     }
@@ -262,11 +226,11 @@ padding: 20px;
 }
 
 @media only screen and ( max-width : 475px )  {
-     .signup, .loginEl{
-        display: none;
-    }
     .menubar{
         display: block;
+    }
+    .navbar-details .Logins .loginEl, .navbar-details .Logins .signup{
+        display: none;
     }
   .navbar-details .contents{
         display: none;

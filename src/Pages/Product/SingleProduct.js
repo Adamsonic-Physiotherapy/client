@@ -13,7 +13,6 @@ export default function SingleProduct() {
         navigate(-1)
     })
 
-
   return (
     <div className='single-product'>
         <div className="single-product-container">
@@ -40,7 +39,7 @@ export default function SingleProduct() {
                 </div>
                 <div className="cart">
                     <div className="submit">
-                        <button>Add to cart</button>
+                        <button>Purchase Item</button>
                     </div>
                 </div>
             </div>
