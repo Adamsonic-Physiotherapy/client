@@ -196,6 +196,16 @@ const [ product ] = useState([
         name : "Tunnel Bath",
         image: 'https://i.ibb.co/w6w5gmm/tunnel.jpg'
     },
+    {
+        id: 38,
+        name : "Shoulder Support",
+        image: 'https://i.ibb.co/1rnqbDr/sho.jpg'
+    },
+    {
+        id: 39,
+        name : "Shoulder Support",
+        image: 'https://i.ibb.co/DY8wf1T/shoulder.jpg'
+    },
 ])
     
     const HandleRoutes = ((e, image, name , price, des)=>{
