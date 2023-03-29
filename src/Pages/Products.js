@@ -41,7 +41,7 @@ const [ product ] = useState([
     },
     {
         id: 5,
-        name : "Quoriceps Benchs",
+        name : "Wobblr Board",
         image: 'https://i.ibb.co/ngyNwNV/wobby-board-local.jpg',
         des: `The Quadriceps Bench is a functional muscle exerciser, allowing
         a large number of exercises to be performed within minimum floor
@@ -56,7 +56,7 @@ const [ product ] = useState([
     }, 
     {
         id: 7,
-        name : "Long Cork Splint",
+        name : "Long Cork-Up Splint",
         image: 'https://i.ibb.co/yRsHgZ1/Long-cork-splint-adult.jpg',
         des: `   Cock-up splint helps to hold the wrists and hands “cocked-up” in
         a single position and immobilise the wrist during healing of
@@ -64,7 +64,7 @@ const [ product ] = useState([
     }, 
     {
         id: 8,
-        name : "Cork Up Splint",
+        name : "Cork-Up Splint",
         image: 'https://i.ibb.co/DMhzgq0/PHY-8.jpg',
         des: `   Cock-up splint helps to hold the wrists and hands “cocked-up” in
         a single position and immobilise the wrist during healing of
@@ -108,7 +108,7 @@ const [ product ] = useState([
     },
     {
         id: 15,
-        name : "Truck Support ",
+        name : "Truck Support",
         image: 'https://i.ibb.co/qxBbrHq/PHY-13.jpg'
     },
     {
@@ -123,7 +123,7 @@ const [ product ] = useState([
     },
     {
         id: 18,
-        name : "Back Slap",
+        name : "Long Cork-up Splint",
         image: 'https://i.ibb.co/fFJx3kM/PHY-20.jpg'
     },
     {
