@@ -162,6 +162,11 @@ const [ product ] = useState([
         image: 'https://i.ibb.co/ZXdKvxD/PHY-16.jpg'
     },
     {
+        id: 72,
+        name : "Cerebral Palsy Chair",
+        image: 'https://i.ibb.co/P6QnkrD/Cp.jpg'
+    },
+    {
         id: 23,
         name : "Standing Frame",
         image: 'https://i.ibb.co/QvRMW1k/PHY-17.jpg'
@@ -171,7 +176,11 @@ const [ product ] = useState([
         name : "Hand Exercise box Rehabilitation",
         image: 'https://i.ibb.co/BKpb91X/handle.jpg'
     },
-
+    {
+        id: 85,
+        name : "Back Slap",
+        image: 'https://i.ibb.co/CBtRHYn/p-po-knee-contracture.jpg'
+    },
     {
         id: 25,
         name : "Back Slap",
