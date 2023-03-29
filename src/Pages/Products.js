@@ -108,12 +108,12 @@ const [ product ] = useState([
     },
     {
         id: 15,
-        name : "Truck Support",
+        name : "Trunk Support",
         image: 'https://i.ibb.co/qxBbrHq/PHY-13.jpg'
     },
     {
         id: 16,
-        name : "Finger Ladder",
+        name : "Shoulder Ladder",
         image: 'https://i.ibb.co/hXQ9H1R/A.jpg'
     },
     {
@@ -133,7 +133,7 @@ const [ product ] = useState([
     },
     {
         id: 20,
-        name : "Box",
+        name : "Finger Training Box",
         image: 'https://i.ibb.co/HK98JDz/PHY-14.jpg'
     },
     {
@@ -143,13 +143,18 @@ const [ product ] = useState([
     },
     {
         id: 22,
-        name : "CP Chair",
+        name : "Cerebral Palsy Chair",
         image: 'https://i.ibb.co/ZXdKvxD/PHY-16.jpg'
     },
     {
         id: 23,
         name : "Standing Frame",
         image: 'https://i.ibb.co/QvRMW1k/PHY-17.jpg'
+    },
+    {
+        id: 23,
+        name : "Hand Exercise box Rehabilitation",
+        image: 'https://i.ibb.co/BKpb91X/handle.jpg'
     },
     {
         id: 24,
