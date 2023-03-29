@@ -118,7 +118,7 @@ const [ product ] = useState([
     },
     {
         id: 17,
-        name : "Long Cork_Up ",
+        name : "Medical Finger physiotherapy Hemiplega Rehabilitation Equipment",
         image: 'https://i.ibb.co/Q6bkK47/b.jpg'
     },
     {
